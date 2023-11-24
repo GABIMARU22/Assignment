@@ -1,0 +1,10 @@
+roles/
+   db/
+     tasks/
+       main.yml # Install MySQL, create databases, users, set firewall 
+   app/
+     tasks/
+       main.yml # Install app code, web server, connect to db
+   lb/
+     tasks/
+       main.yml # Install and configure load balancer
